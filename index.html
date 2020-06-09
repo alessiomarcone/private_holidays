@@ -1,0 +1,464 @@
+﻿<DOCTYPE html>
+    <html lange="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Private Holidays</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--MAIN MENU-->
+        <nav class="navbar navbar-expand-lg d-none d-md-block navbar-light bg-lignt">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="navbar-nav nav-fill w-100 list-inline d-flex justify-content-center align-items-center">
+                        <li class="nav-item nav-item-left">
+                            <a class="nav-link nav-link-left" href="#">home</a>
+                        </li>
+                        <li class="nav-item nav-item-left">
+                            <a class="nav-link nav-link-left" href="#">experiences</a>
+                        </li>
+                        <li class="nav-item nav-item">
+                            <img src="img/logo.png" class="logo">
+                        </li>
+                        <li class="nav-item nav-item-right">
+                            <a class="nav-link nav-link-right" href="#">questions</a>
+                        </li>
+                        <li class="nav-item nav-item-right">
+                            <a class="nav-link nav-link-right" href="#">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg d-lg-none navbar-light bg-lignt">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="img/logo.png" class="logo-responsive">
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="navbar-nav nav-fill w-100 list-inline d-flex justify-content-center">
+
+                        <li class="nav-item nav-item-left">
+                            <a class="nav-link nav-link-right" href="#">home</a>
+                        </li>
+                        <li class="nav-item nav-item">
+                            <a class="nav-link nav-link-right" href="#">experiences</a>
+                        </li>
+                        <li class="nav-item nav-item-right">
+                            <a class="nav-link nav-link-right" href="#">questions</a>
+                        </li>
+                        <li class="nav-item nav-item-right">
+                            <a class="nav-link nav-link-right" href="#">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--END MAIN MENU-->
+        <!--HOME INNER-->
+        <header class="masthead animate__animated animate__fadeIn">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="cover-title animate__animated animate__zoomIn">enjoy freedom land</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--END HOME INNER-->
+        <!--BOOKING SECTION-->
+        <div class="container animate__animated animate__slideInUp animate__delay-2s">
+            <div id="booking">
+                <div class="row">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Mauritius</option>
+                                        <option>Leh-Ladakh</option>
+                                        <option>Manali</option>
+                                        <option>Ooty</option>
+                                        <option>Allepey</option>
+                                        <option>Darjeeling</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="date" required>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="date" required>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>1 Bedroom</option>
+                                        <option>2 Bedroom</option>
+                                        <option>3 Bedroom</option>
+                                        <option>4 Bedroom</option>
+                                        <option>5 Bedroom</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-xs-12">
+                        <div class="form-btn">
+                            <button class="submit-btn"><ion-icon name="arrow-forward-sharp" class="text-center"></ion-icon></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END BOOKING SECTION-->
+        <!--SEE LATEST VACATION IDEAS-->
+
+        <div id="vacation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 animate__animated animate__fadeIn">
+                        <h3 class="heading text-center">See latest vacation ideas</h3>
+                        <img src="img\border-bottom.png" class="border-bottom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img-card1 animate__animated animate__zoomIn">
+                            <div class="label animate__animated animate__fadeInUp" onclick="myhref('#');">
+                                <h4 class="title">Beachfront Escapes</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-card2 animate__animated animate__zoomIn">
+                            <div class="label animate__animated animate__fadeInUp" onclick="myhref('#');">
+                                <h4 class="title">Group Holidays</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-card3 animate__animated animate__zoomIn">
+                            <div class="label animate__animated animate__fadeInUp" onclick="myhref('#');">
+                                <h4 class="title">City Breaks</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END SEE LATEST VACATION IDEAS-->
+        <!--RECENT HOLIDAYS LOCATIONS-->
+        <div id="locations">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mx-auto animate__animated animate__fadeIn">
+                        <h3 class="heading text-center">Recent holiday locations</h3>
+                        <img src="img\border-bottom.png" class="border-bottom">
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-md-12 mx-auto">
+                        <div class="card">
+                            <div class="row no-gutters no-margin">
+                                <div class="col-sm-6">
+                                    <img src="img\room1.jpg" alt="Thalie 5" class="animate__animated animate__zoomIn animate__delay-1s">
+                                </div>
+                                <div class="col-sm-6 mx-auto">
+                                    <div class="card-body animate__animated animate__slideInLeft">
+                                        <h5 class="card-title">Thalie 5</h5>
+                                        <p class="card-text small">
+                                            Thalie 5 is located on the exclusive Belle Riviere estate,
+                                            which is home to several of Luxury Retreats’
+                                            finest villas in Mauritius.
+                                        </p>
+                                        <div class="card-icons">
+                                            <p class="small">
+                                                <ion-icon name="airplane"></ion-icon> <span class="number">3</span>
+                                                <ion-icon name="boat"></ion-icon> <span class="number">5</span>
+                                                <ion-icon name="car-sport"></ion-icon>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="button_red animate__animated animate__fadeIn animate__delay-2s">book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mx-auto">
+                        <div class="card">
+                            <div class="row no-gutters no-margin">
+                                <div class="col-sm-6">
+                                    <img src="img\room2.jpg" alt="Montage Kapalua" class="animate__animated animate__zoomIn">
+                                </div>
+                                <div class="col-sm-6 text-xs-center">
+                                    <div class="card-body animate__animated animate__slideInLeft">
+                                        <h5 class="card-title">Montage Kapalua</h5>
+                                        <p class="card-text small">
+                                            Located only a jaunt from Kahului airport, you’ll be greeted
+                                            by an easy and scenic drive along the West Maui Mountains
+                                            and crystal blue waters of the Pacific Ocean.
+                                        </p>
+                                        <div class="card-icons">
+                                            <p class="small">
+                                                <ion-icon name="airplane"></ion-icon> <span class="number">4</span>
+                                                <ion-icon name="boat"></ion-icon> <span class="number">4</span>
+                                                <ion-icon name="car-sport"></ion-icon>
+                                                <ion-icon name="ice-cream"></ion-icon>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="button_red animate__animated animate__fadeIn animate__delay-2s">book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-md-12  mx-auto">
+                        <div class="card">
+                            <div class="row no-gutters no-margin">
+                                <div class="col-sm-6">
+                                    <img src="img\room3.jpg" alt="Casa Del Agua" class="animate__animated animate__zoomIn animate__delay-1s">
+                                </div>
+                                <div class="col-sm-6 text-xs-center">
+                                    <div class="card-body animate__animated animate__slideInLeft">
+                                        <h5 class="card-title">Casa Del Agua</h5>
+                                        <p class="card-text small">
+                                            After a breakfast catered to your taste and served at your leisure, relax in a hammock under
+                                            the shade of a palm tree or let the sun perform.
+                                        </p>
+                                        <div class="card-icons">
+                                            <p class="small">
+                                                <ion-icon name="airplane"></ion-icon> <span class="number">4</span>
+                                                <ion-icon name="boat"></ion-icon> <span class="number">4</span>
+                                                <ion-icon name="car-sport"></ion-icon>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="button_red animate__animated animate__fadeIn animate__delay-2s">book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mx-auto">
+                        <div class="card">
+                            <div class="row no-gutters no-margin text-xs-center">
+                                <div class="col-sm-6">
+                                    <img src="img\room4.jpg" alt="Casa Jaguar" class="animate__animated animate__zoomIn">
+                                </div>
+                                <div class="col-sm-6 text-xs-center">
+                                    <div class="card-body animate__animated animate__slideInLeft">
+                                        <h5 class="card-title">Casa Jaguar</h5>
+                                        <p class="card-text small">
+                                            Sleek and sophisticated like the animal for which it has been named,
+                                            Casa Jaguar is an immaculate tropical luxury villa located in the Mayan
+                                        </p>
+                                        <div class="card-icons">
+                                            <p class="small">
+                                                <ion-icon name="airplane"></ion-icon> <span class="number">1</span>
+                                                <ion-icon name="boat"></ion-icon> <span class="number">1</span>
+                                                <ion-icon name="car-sport"></ion-icon>
+                                                <ion-icon name="ice-cream"></ion-icon>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="button_red animate__animated animate__fadeIn animate__delay-2s">book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END RECENT HOLIDAYS LOCATIONS-->
+        <!--WHY WE ARE DIFFERENT-->
+        <div id="icon_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 animate__animated animate__fadeIn">
+                        <h3 class="heading text-center">Why are we different</h3>
+                        <img src="img\border-bottom.png" class="border-bottom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 animate__animated animate__fadeInLeft">
+                        <div class="line-bottom">
+                            <div class="icon_area">
+                                <img src="img/icon1.png" />
+                            </div>
+                            <div class="title">
+                                <h4>Tailor-Made Packages</h4>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    When it comes to delivering the best planned holiday package to you,
+                                    we strive to exceed your expectations. For us, it has to be spot-on.
+                                    We do what we do in the ideal way possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate__animated animate__fadeInUp">
+                        <div class="line-bottom">
+                            <div class="icon_area">
+                                <img src="img/icon2.png" />
+                            </div>
+                            <div class="title">
+                                <h4>Best Experience</h4>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    At Purplerain Holidays, we choose to put forth an essence of our
+                                    own expertise and firsthand experiences into our services
+                                    and method of planning.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animate__animated animate__fadeInRight">
+                        <div class="line-bottom">
+                            <div class="icon_area">
+                                <img src="img/icon3.png" />
+                            </div>
+                            <div class="title">
+                                <h4>Exquisite Service</h4>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    From the moment you make the first call to enquire,
+                                    our services are geared up. From the time booking, to your stay and
+                                    well after the trip as well, we will guide you and be at your back and call.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END WHY WE ARE DIFFERENT-->
+        <!--CONTACT FORM-->
+        <div id="contact_form">
+            <div class="contact_form_background">
+                <div class="container">
+                    <div class="form">
+                        <h3 class="title animate__animated animate__fadeIn">Send us a message</h3>
+                        <input class="form-control form-control-lg animate__animated animate__zoomIn" type="text" placeholder="Your name">
+                        <input class="form-control form-control-lg animate__animated animate__zoomIn" type="text" placeholder="Email">
+                        <input class="form-control form-control-lg animate__animated animate__zoomIn" type="text" placeholder="Message">
+                        <button type="submit" class="button_red">send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END CONTACT FORM-->
+        <!--FOOTER-->
+        <footer>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-12 animate__animated animate__fadeInUp">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-12">
+                                    <p class="heading"><a href="#">Information</a></p>
+                                    <p class="small"><a href="#">About us</a></p>
+                                    <p class="small"><a href="#">Online enquiry</a></p>
+                                    <p class="small"><a href="#">Call us</a></p>
+                                    <p class="small"><a href="#">General enquiries</a></p>
+                                    <p class="small"><a href="#">Booking conditions</a></p>
+                                    <p class="small"><a href="#">Privacy policy</a></p>
+                                    <p class="small"><a href="#">Refund policy</a></p>
+                                </div>
+                                <div class="col-lg-3 col-md-12 animate__animated animate__fadeInUp animate__delay-1s">
+                                    <p class="heading"><a href="#">Experiences</a></p>
+                                    <p class="small"><a href="#">Beach</a></p>
+                                    <p class="small"><a href="#">Adventure</a></p>
+                                    <p class="small"><a href="#">Wildlife</a></p>
+                                    <p class="small"><a href="#">Honeymoon</a></p>
+                                    <p class="small"><a href="#">Culture & heritage</a></p>
+                                    <p class="small"><a href="#">Nature</a></p>
+                                    <p class="small"><a href="#">Spiritual</a></p>
+                                    <p class="small"><a href="#">Hill station</a>
+                                </div>
+                                <div class="col-lg-3 col-md-12 animate__animated animate__fadeInUp animate__delay-2s">
+                                    <p class="heading"><a href="#">Themes</a></p>
+                                    <p class="small"><a href="#">Party</a></p>
+                                    <p class="small"><a href="#">Wedding</a></p>
+                                    <p class="small"><a href="#">Group tours</a></p>
+                                </div>
+                                <div class="col-lg-3 col-md-12 animate__animated animate__fadeInUp animate__delay-3s">
+                                    <p class="heading"><a href="#">Popular destinations</a></p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12">
+                                            <p class="small"><a href="#">Leh-Ladakh</a></p>
+                                            <p class="small"><a href="#">Manali</a></p>
+                                            <p class="small"><a href="#">Ooty</a></p>
+                                            <p class="small"><a href="#">Allepey</a></p>
+                                            <p class="small"><a href="#">Darjeeling</a></p>
+                                            <p class="small"><a href="#">Goa</a></p>
+                                            <p class="small"><a href="#">Mahabaleshwar</a></p>
+                                            <p class="small"><a href="#">Agra</a></p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                            <p class="small"><a href="#">Coorg</a></p>
+                                            <p class="small"><a href="#">Mysore</a></p>
+                                            <p class="small"><a href="#">Gir</a></p>
+                                            <p class="small"><a href="#">Kabini</a></p>
+                                            <p class="small"><a href="#">Jaipur</a></p>
+                                            <p class="small"><a href="#">Kodaikanal</a></p>
+                                            <p class="small"><a href="#">Andaman</a></p>
+                                            <p class="small"><a href="#">Shimla</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 animate__animated animate__fadeInUp animate__delay-4s">
+                            <div class="address">
+                                <p class="small">
+                                    Phone: +91-80-41127931<br />
+                                    Email: info@aztechdesign.com<br />
+                                    <br />
+                                    <b>Address</b><br />
+                                    1st Main, Bucharest<br />
+                                    2nd Stage Raiffisen Tower,<br />
+                                    Bucharest - 400400,<br />
+                                    Romania
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--END FOOTER-->
+
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function myhref(web) { window.location.href = web; }
+        </script>
+    </body>
+</html>
